@@ -1,42 +1,52 @@
+# Shannon R. Emerzian's Academic Website
+
+This is a React-based academic website for Shannon R. Emerzian, showcasing education, experience, publications, and conference proceedings.
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine. This will also install npm (Node Package Manager) automatically, which includes `npx`.
+
+### Installing Node.js and npm on macOS
+
+**Using Homebrew (recommended)**:
+   - If you don't have Homebrew installed, open your terminal and run:
+     ```bash
+     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+     ```
+   - Once Homebrew is installed, you can install Node.js by running:
+     ```bash
+     brew install node
+     ```
+
+### Installing Dependencies
+
+Navigate to the my-app directory and install the required dependencies:
+
+```bash
+npm install
+```
+
+### Running the Development Server
+
+To start the development server, run:
+
+```bash
+npm start
+```
 
 This will open the app in your default web browser at `http://localhost:3000`.
 
 ## Deploying to GitHub Pages
 
-1. **Set the Homepage in package.json**:
-   Make sure the `homepage` field in your `package.json` is set to:
-   ```json
-   "homepage": "https://[your-github-username].github.io/[repository-name]"
-   ```
+Run the following command to deploy your app to GitHub Pages:
+```bash
+npm run deploy
+```
 
-2. **Install gh-pages**:
-   If you haven't already, install the `gh-pages` package:
-   ```bash
-   npm install --save-dev gh-pages
-   ```
+### Updating info
 
-3. **Add Deployment Scripts**:
-   Add the following scripts to your `package.json`:
-   ```json
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
-   }
-   ```
+To update the information in the website, edit the files in the `my-app/src/data` directory.
 
-4. **Deploy the App**:
-   Run the following command to deploy your app to GitHub Pages:
-   ```bash
-   npm run deploy
-   ```
-
-5. **Configure GitHub Pages**:
-   - Go to your GitHub repository settings.
-   - Under the "Pages" section, set the source to the `gh-pages` branch.
-   - Save the changes.
-
-Your app should now be live at the URL specified in the `homepage` field of your `package.json`.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+All of the content in the website is built off of this data.
