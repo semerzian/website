@@ -1,0 +1,21 @@
+{
+  "conferences": [
+    {
+      "title": "Conference Paper Title",
+      "authors": ["Author 1", "Author 2"],
+      "conference": "Conference Name",
+      "location": "City, Country",
+      "year": 2023,
+      "type": "Oral/Poster",
+      "abstract": "Abstract text"
+    }
+  ],
+  "presentations": [
+    {
+      "title": "Presentation Title",
+      "venue": "Venue Name",
+      "date": "Month Year",
+      "type": "Invited Talk/Seminar"
+    }
+  ]
+} 
