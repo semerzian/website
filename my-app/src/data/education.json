@@ -19,7 +19,7 @@
         "institution": "Northeastern University",
         "location": "Boston, MA",
         "year": "2013",
-        "logo": "/images/Northeastern_University_seal.svg"
+        "logo": "./images/Northeastern_seal.png"
     }
   ]
 } 

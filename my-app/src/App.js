@@ -5,7 +5,6 @@ import Education from './components/Education'
 import Experience from './components/Experience'
 import Publications from './components/Publications'
 import Proceedings from './components/Proceedings'
-import Contact from './components/Contact'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home')
@@ -22,8 +21,6 @@ function App() {
         return <Publications />
       case 'proceedings':
         return <Proceedings />
-      case 'contact':
-        return <Contact />
       default:
         return <Home />
     }

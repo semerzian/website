@@ -1,21 +1,42 @@
 {
   "conferences": [
     {
-      "title": "Conference Paper Title",
-      "authors": ["Author 1", "Author 2"],
-      "conference": "Conference Name",
-      "location": "City, Country",
-      "year": 2023,
-      "type": "Oral/Poster",
-      "abstract": "Abstract text"
+      "title": "Long-Duration Type 1 Diabetes Alters Bone Matrix Composition but Does Not Influence Microarchitecture or Mechanical Behavior in Femoral Trabecular Bone in Older Adults",
+      "authors": ["Emerzian SR", "Hanlon J", "Behzad R", "Unal M", "Brooks DJ", "Wu I", "Jangolla S", "Yu MG", "Shah HS", "King GL", "Johannesdottir F", "Karim L", "Yu EW", "Bouxsein ML"],
+      "conference": "Annual Meeting of the American Society of Bone and Mineral Research",
+      "location": "Toronto, Ontario, Canada",
+      "date": "09/2024",
+      "type": "Poster",
+      "pdfLink": "./pdfs/proceedings/ASBMR_2024_T1D_Matrix.pdf"
+    },
+    {
+      "title": "Femoral Neck Bone Tissue Composition is Altered in Cortical but not Trabecular Bone in Postmenopausal Women with Long-Duration Type 1 Diabetes",
+      "authors": ["Emerzian SR", "Gamsjaeger S", "Paschalis E", "Hassler N", "Wu I", "Jangolla S", "Yu MG", "Shah HS", "King GL", "Johannesdottir F", "Yu EW", "Bouxsein ML"],
+      "conference": "Annual Meeting of the Orthopedic Research Society",
+      "location": "Long Beach, CA",
+      "date": "02/2024",
+      "type": "Poster",
+      "pdfLink": "./pdfs/proceedings/ORS_2024_T1D_FTIR.pdf"
+    },
+    {
+      "title": "Total body irradiation drives deficits in vertebral trabecular bone structure but not mechanical properties in male rhesus macaques",
+      "authors": ["Barnet I*", "Emerzian SR*", "Brooks DJ", "Park S", "Moore J", "Olson JD", "Bouxsein ML", "Cline JM", "Willey JS"],
+      "conference": "Annual Meeting of the Orthopedic Research Society",
+      "location": "Long Beach, CA",
+      "date": "02/2024",
+      "type": "Poster",
+      "note": "*Equal contribution by both authors",
+      "pdfLink": "./pdfs/proceedings/ORS_2024_TBI_NHP.pdf"
     }
   ],
   "presentations": [
     {
-      "title": "Presentation Title",
-      "venue": "Venue Name",
-      "date": "Month Year",
-      "type": "Invited Talk/Seminar"
+      "title": "Artificial Gravity Induced by Centrifugation on the International Space Station Partially Mitigates Muscle Atrophy in Mice",
+      "authors": ["Mortreux M", "Sung D-M", "Nagy J", "Coulombe JC", "Ciola J", "Wadhwa A", "Emerzian SR", "Rutkove S", "Willey JS", "Fuller CA", "Hotz-Vitaterna MH", "Takahashi S", "Bouxsein ML"],
+      "conference": "NASA Human Research Program Investigators' Workshop",
+      "location": "Galveston, Texas, USA",
+      "date": "02/2024",
+      "type": "Podium"
     }
   ]
 } 

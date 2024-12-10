@@ -5,42 +5,49 @@
       "institution": "Harvard Medical School",
       "department": "Center for Advanced Orthopedic Studies, Beth Israel Deaconess Medical Center",
       "location": "Boston, MA",
-      "period": "2021-Present"
+      "period": "2021-Present",
+      "logo": "./images/Beth_Israel.jpg"
     },
     {
       "title": "Graduate Student",
       "institution": "University of California, Berkeley",
       "department": "Berkeley BioMechanics, Bone Biomechanics Laboratory",
       "location": "Berkeley, CA",
-      "period": "2015-2021"
+      "period": "2015-2021",
+      "logo": "./images/university-of-california-berkeley-athletic-logo.png"
     },
     {
       "title": "Graduate Student Researcher",
       "institution": "NASA Ames Research Center",
       "department": "Bone and Signaling Laboratory, Space Biosciences Division",
       "location": "Mountain View, CA",
-      "period": "2017-2018"
+      "period": "2017-2018",
+      "logo": "./images/NASA+Ames+Research+Center.jpg"
     },
     {
       "title": "Sustaining/Manufacturing Engineer",
       "institution": "Medtronic",
       "department": "",
       "location": "",
-      "period": "2013-2015"
+      "period": "2013-2015",
+      "logo": "./images/Medtronic.jpg"
+
     },
     {
       "title": "Research and Development Co-op",
       "institution": "Infoscitex Corporation",
       "department": "",
       "location": "",
-      "period": "2012"
+      "period": "2012",
+      "logo": "./images/Infoscitex.jpg"
     },
     {
       "title": "Undergraduate Student Researcher",
       "institution": "Northeastern University",
       "department": "Nano/Micro Biochemical Characterization Laboratory",
       "location": "Boston, MA",
-      "period": "2011-2013"
+      "period": "2011-2013",
+      "logo": "./images/Northeastern_seal.png"
     }
   ],
   "teaching": [
@@ -49,13 +56,8 @@
       "course": "",
       "institution": "Northeastern University",
       "department": "Department of Mechanical and Industrial Engineering",
-      "period": "2011-2013"
-    },
-    {
-      "role": "Graduate Student Instructor",
-      "course": "ME C85/CE C285: Introduction to the Mechanics of Solids",
-      "institution": "University of California, Berkeley",
-      "period": "Fall 2019"
+      "period": "2011-2013",
+      "logo": "./images/Northeastern_seal.png"
     }
   ]
 } 

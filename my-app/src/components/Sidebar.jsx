@@ -33,18 +33,13 @@ function Sidebar({ currentPage, setCurrentPage }) {
         </nav>
 
         <div className="mt-8 pt-6 border-t border-gray-700/50">
-          <p className="text-gray-400 text-sm text-center mb-4">
+          <a 
+            href={`mailto:${profile.email}`}
+            className="text-gray-400 text-sm text-center mb-4 block hover:text-white transition-colors"
+          >
             {profile.email}
-          </p>
+          </a>
           <div className="flex justify-center space-x-4">
-            <a
-              href={profile.social.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              <FaXTwitter size={20} />
-            </a>
             <a
               href={profile.social.linkedin}
               target="_blank"
@@ -52,6 +47,14 @@ function Sidebar({ currentPage, setCurrentPage }) {
               className="text-gray-400 hover:text-white transition-colors"
             >
               <FaLinkedin size={20} />
+            </a>
+            <a
+              href={profile.social.twitter}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              <FaXTwitter size={20} />
             </a>
           </div>
         </div>

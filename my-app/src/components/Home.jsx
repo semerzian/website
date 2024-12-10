@@ -14,6 +14,7 @@ function Home() {
           <p className="text-xl text-gray-300 mb-2">{profileData.currentPosition.title}</p>
           <p className="text-gray-400">{profileData.currentPosition.department}</p>
           <p className="text-gray-400">{profileData.currentPosition.institution}</p>
+          <p className="text-gray-400">{profileData.location}</p>
         </div>
       </div>
       
