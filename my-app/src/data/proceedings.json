@@ -2,41 +2,400 @@
   "conferences": [
     {
       "title": "Long-Duration Type 1 Diabetes Alters Bone Matrix Composition but Does Not Influence Microarchitecture or Mechanical Behavior in Femoral Trabecular Bone in Older Adults",
-      "authors": ["Emerzian SR", "Hanlon J", "Behzad R", "Unal M", "Brooks DJ", "Wu I", "Jangolla S", "Yu MG", "Shah HS", "King GL", "Johannesdottir F", "Karim L", "Yu EW", "Bouxsein ML"],
+      "authors": [
+        "Emerzian SR",
+        "Hanlon J",
+        "Behzad R",
+        "Unal M",
+        "Brooks DJ",
+        "Wu I",
+        "Jangolla S",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Johannesdottir F",
+        "Karim L",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
       "conference": "Annual Meeting of the American Society of Bone and Mineral Research",
       "location": "Toronto, Ontario, Canada",
       "date": "09/2024",
       "type": "Poster",
-      "pdfLink": "./pdfs/proceedings/ASBMR_2024_T1D_Matrix.pdf"
+      "pdfLink": "./pdfs/ASBMR_2024_T1D_Matrix.pdf"
     },
     {
       "title": "Femoral Neck Bone Tissue Composition is Altered in Cortical but not Trabecular Bone in Postmenopausal Women with Long-Duration Type 1 Diabetes",
-      "authors": ["Emerzian SR", "Gamsjaeger S", "Paschalis E", "Hassler N", "Wu I", "Jangolla S", "Yu MG", "Shah HS", "King GL", "Johannesdottir F", "Yu EW", "Bouxsein ML"],
+      "authors": [
+        "Emerzian SR",
+        "Gamsjaeger S",
+        "Paschalis E",
+        "Hassler N",
+        "Wu I",
+        "Jangolla S",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Johannesdottir F",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
       "conference": "Annual Meeting of the Orthopedic Research Society",
       "location": "Long Beach, CA",
       "date": "02/2024",
       "type": "Poster",
-      "pdfLink": "./pdfs/proceedings/ORS_2024_T1D_FTIR.pdf"
+      "pdfLink": "./pdfs/ORS_2024_T1D_FTIR.pdf"
     },
     {
       "title": "Total body irradiation drives deficits in vertebral trabecular bone structure but not mechanical properties in male rhesus macaques",
-      "authors": ["Barnet I*", "Emerzian SR*", "Brooks DJ", "Park S", "Moore J", "Olson JD", "Bouxsein ML", "Cline JM", "Willey JS"],
+      "authors": [
+        "Barnet I*",
+        "Emerzian SR*",
+        "Brooks DJ",
+        "Park S",
+        "Moore J",
+        "Olson JD",
+        "Bouxsein ML",
+        "Cline JM",
+        "Willey JS"
+      ],
       "conference": "Annual Meeting of the Orthopedic Research Society",
       "location": "Long Beach, CA",
       "date": "02/2024",
       "type": "Poster",
       "note": "*Equal contribution by both authors",
-      "pdfLink": "./pdfs/proceedings/ORS_2024_TBI_NHP.pdf"
-    }
-  ],
-  "presentations": [
+      "pdfLink": "./pdfs/ORS_2024_TBI_NHP.pdf"
+    },
     {
       "title": "Artificial Gravity Induced by Centrifugation on the International Space Station Partially Mitigates Muscle Atrophy in Mice",
-      "authors": ["Mortreux M", "Sung D-M", "Nagy J", "Coulombe JC", "Ciola J", "Wadhwa A", "Emerzian SR", "Rutkove S", "Willey JS", "Fuller CA", "Hotz-Vitaterna MH", "Takahashi S", "Bouxsein ML"],
+      "authors": [
+        "Mortreux M",
+        "Sung D-M",
+        "Nagy J",
+        "Coulombe JC",
+        "Ciola J",
+        "Wadhwa A",
+        "Emerzian SR",
+        "Rutkove S",
+        "Willey JS",
+        "Fuller CA",
+        "Hotz-Vitaterna MH",
+        "Takahashi S",
+        "Bouxsein ML"
+      ],
       "conference": "NASA Human Research Program Investigators' Workshop",
       "location": "Galveston, Texas, USA",
       "date": "02/2024",
-      "type": "Podium"
+      "type": "Podium",
+      "pdfLink": "./pdfs/NASA_HRP_2024_Artificial_Gravity.pdf"
+    },
+    {
+      "title": "Response of the murine skeleton to artificial gravity induced by centrifugation on the International Space Station: A NASA-JAXA collaboration",
+      "authors": [
+        "Coulombe JC",
+        "Wadhwa A",
+        "Mortreux M",
+        "Emerzian SR",
+        "Brooks DJ",
+        "Baron R",
+        "Willey JS",
+        "Fuller CA",
+        "Takahashi S",
+        "Hotz-Vitaterna M",
+        "Bouxsein ML"
+      ],
+      "conference": "NASA Human Research Program Investigators' Workshop",
+      "location": "Galveston, Texas, USA",
+      "date": "02/2024",
+      "type": "Presentation",
+      "pdfLink": "./pdfs/NASA_HRP_2024_Artificial_Gravity_Response.pdf"
+    },
+    {
+      "title": "Galactic cosmic radiation and ApoE4 both weaken lumbar vertebrae in male Alzheimer’s-like transgenic mice",
+      "authors": [
+        "Wadhwa A*",
+        "Emerzian SR*",
+        "Saido TC",
+        "Holtzman DM",
+        "Bouxsein ML",
+        "Lemere CA"
+      ],
+      "conference": "Annual Meeting of the American Society for Gravitational and Space Research",
+      "location": "Washington, D.C.",
+      "date": "11/2023",
+      "type": "Poster",
+      "note": "*Equal contribution by both authors",
+      "pdfLink": "./pdfs/ASGSR_2023_Galactic_Cosmic_Radiation.pdf"
+    },
+    {
+      "title": "Losses in murine skeletal health are partially mitigated by artificial gravity induced by centrifugation on the International Space Station: A NASA-JAXA collaboration",
+      "authors": [
+        "Wadhwa A",
+        "Coulombe JC",
+        "Emerzian SR",
+        "Chow J",
+        "Brooks DJ",
+        "Willey JS",
+        "Fuller CA",
+        "Takahashi S",
+        "Hotz-Vitaterna M",
+        "Bouxsein ML"
+      ],
+      "conference": "Annual Meeting of the American Society for Gravitational and Space Research",
+      "location": "Washington, D.C.",
+      "date": "11/2023",
+      "type": "Poster",
+      "pdfLink": "./pdfs/ASGSR_2023_Murine_Skeletal_Health.pdf"
+    },
+    {
+      "title": "Artificial Gravity Induced by Centrifugation on the International Space Station Mitigates Muscle Deconditioning in Mice: the MHU-8 Mission",
+      "authors": [
+        "Mortreux M",
+        "Sung D-M",
+        "Nagy J",
+        "Coulombe JC",
+        "Ciola J",
+        "Wadhwa A",
+        "Emerzian SR",
+        "Rutkove S",
+        "Fuller CA",
+        "Hotz-Vitaterna MH",
+        "Takahashi S",
+        "Willey JS",
+        "Bouxsein ML"
+      ],
+      "conference": "Annual Meeting of the American Society for Gravitational and Space Research",
+      "location": "Washington, D.C.",
+      "date": "11/2023",
+      "type": "Oral",
+      "pdfLink": "./pdfs/ASGSR_2023_MHU_8_Mission.pdf"
+    },
+    {
+      "title": "Response of the murine skeleton to artificial gravity induced by centrifugation on the International Space Station: A NASA-JAXA collaboration",
+      "authors": [
+        "Coulombe JC",
+        "Wadhwa A",
+        "Mortreux M",
+        "Emerzian SR",
+        "Brooks DJ",
+        "Baron R",
+        "Willey JS",
+        "Fuller CA",
+        "Takahashi S",
+        "Hotz-Vitaterna M",
+        "Bouxsein ML"
+      ],
+      "conference": "Annual Meeting of the American Society of Bone and Mineral Research",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "10/2023",
+      "type": "Poster",
+      "pdfLink": "./pdfs/ASBMR_2023_Artificial_Gravity_Response.pdf"
+    },
+    {
+      "title": "Older Women with Longstanding Type 1 Diabetes Have Lower Femoral Strength and Region-Specific Deficits in Trabecular Bone Mineral Density of the Femoral Neck",
+      "authors": [
+        "Emerzian SR",
+        "Lee DC",
+        "Johannesdottir FJ",
+        "Wu I",
+        "Gauthier J",
+        "Jangolla S",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Keaveny TM",
+        "Engelke K",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
+      "conference": "Annual Meeting of the American Society of Bone and Mineral Research",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "10/2023",
+      "type": "Poster",
+      "pdfLink": "./pdfs/ASBMR_2023_Older_Women_T1D.pdf"
+    },
+    {
+      "title": "Long-Duration Type 1 Diabetes Reduces Resistance to Damage Accumulation in Femoral Cortical Bone in Older Adults",
+      "authors": [
+        "Emerzian SR",
+        "Chow J",
+        "Behzad R",
+        "Brooks DJ",
+        "Wu I",
+        "Gauthier J",
+        "Jangolla S",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Johannesdottir F",
+        "Karim L",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
+      "conference": "Annual Meeting of the American Society of Bone and Mineral Research",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "10/2023",
+      "type": "Poster",
+      "pdfLink": "./pdfs/ASBMR_2023_T1D_Damage_Accumulation.pdf"
+    },
+    {
+      "title": "Total Body Irradiation Results in Deficits in Vertebral Bone Structure and Mechanical Properties in Male Rhesus Macaques",
+      "authors": [
+        "Emerzian SR",
+        "Barnet I",
+        "Tedtsen T",
+        "Brooks DJ",
+        "Park S",
+        "Moore J",
+        "Olson JD",
+        "Bouxsein ML",
+        "Cline JM",
+        "Willey JS"
+      ],
+      "conference": "Annual Meeting of the American Society of Bone and Mineral Research",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "10/2023",
+      "type": "Poster",
+      "pdfLink": "./pdfs/ASBMR_2023_TBI_Vertebral_Bone.pdf"
+    },
+    {
+      "title": "Total body irradiation results in long-term deficits in vertebral but not femoral bone structure in male rhesus macaques",
+      "authors": [
+        "Emerzian SR",
+        "Barnet I",
+        "Tedtsen T",
+        "Park S",
+        "Moore J",
+        "Olson JD",
+        "Bouxsein ML",
+        "Cline JM",
+        "Willey JS"
+      ],
+      "conference": "17th International Congress for Radiation Research",
+      "location": "Montreal, Quebec, Canada",
+      "date": "08/2023",
+      "type": "Poster",
+      "pdfLink": "./pdfs/ICRR_2023_TBI_Vertebral_Bone.pdf"
+    },
+    {
+      "title": "Space-like radiation leads to deficits in vertebral bone density and microarchitecture in male Alzheimer’s-like transgenic mice",
+      "authors": [
+        "Emerzian SR*",
+        "Wadhwa A*",
+        "Saido TC",
+        "Holtzman DM",
+        "Bouxsein ML",
+        "Lemere CA"
+      ],
+      "conference": "17th International Congress for Radiation Research",
+      "location": "Montreal, Quebec, Canada",
+      "date": "08/2023",
+      "type": "Poster",
+      "note": "*Equal contribution by both authors",
+      "pdfLink": "./pdfs/ICRR_2023_Space_Radiation.pdf"
+    },
+    {
+      "title": "Cortical Bone Post-Yield Energy Absorption is Reduced in Older Adults with Long-Duration Type 1 Diabetes",
+      "authors": [
+        "Emerzian SR",
+        "Chow J",
+        "Sarolkar S",
+        "Brooks DJ",
+        "Wu I",
+        "Gauthier J",
+        "Jangolla S",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Johannesdottir F",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
+      "conference": "Annual Meeting of the Orthopedic Research Society",
+      "location": "Dallas, TX",
+      "date": "02/2023",
+      "type": "Poster",
+      "pdfLink": "./pdfs/ORS_2023_Cortical_Bone_Energy.pdf"
+    },
+    {
+      "title": "Relative effects of radiation-induced changes in bone mass, microstructure, and tissue material on vertebral strength in a rat model",
+      "authors": [
+        "Emerzian SR",
+        "Wu T",
+        "Vaidya R",
+        "Tang SY",
+        "Abergel RJ",
+        "Keaveny TM"
+      ],
+      "conference": "Radiation Research Society Annual Meeting",
+      "location": "Waikoloa Village, HI",
+      "date": "10/2022",
+      "type": "Poster",
+      "pdfLink": "./pdfs/RRS_2022_Radiation_Effects.pdf"
+    },
+    {
+      "title": "Older Women with Longstanding Type 1 Diabetes Have Region-Specific Reductions in Bone Density in the Femoral Neck",
+      "authors": [
+        "Emerzian SR",
+        "Johannesdottir F",
+        "Coulombe J",
+        "Wu I",
+        "Gauthier J",
+        "Jangolla S",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
+      "conference": "American Bone and Mineral Research Annual Meeting",
+      "location": "Austin, TX",
+      "date": "09/2022",
+      "type": "Poster",
+      "pdfLink": "./pdfs/ABMR_2022_T1D_Bone_Density.pdf"
+    },
+    {
+      "title": "Older Women with Longstanding Type 1 Diabetes Have Region-Specific Reductions in Bone Density in the Femoral Neck",
+      "authors": [
+        "Emerzian SR",
+        "Johannesdottir F",
+        "Coulombe J",
+        "Wu I",
+        "Gauthier J",
+        "Jangolla S",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
+      "conference": "International Workshop on Quantitative Musculoskeletal Imaging",
+      "location": "Noordwjik, Netherlands",
+      "date": "06/2022",
+      "type": "Poster",
+      "pdfLink": "./pdfs/QMI_2022_Bone_Density.pdf"
+    },
+    {
+      "title": "Femoral Neck Bone Microarchitecture is Altered in Older Adults with Long-Duration Type 1 Diabetes",
+      "authors": [
+        "Emerzian SR",
+        "Johannesdottir F",
+        "Brooks DJ",
+        "Bruce M",
+        "Wu I",
+        "Gauthier J",
+        "Tham R",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
+      "conference": "Annual Orthopaedic Research Society Meeting",
+      "location": "Tampa, FL",
+      "date": "02/2022",
+      "type": "Podium",
+      "pdfLink": "./pdfs/ORS_2022_Femoral_Neck.pdf"
     }
   ]
 } 

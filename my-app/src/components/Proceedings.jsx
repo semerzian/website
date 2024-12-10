@@ -5,39 +5,46 @@ function Proceedings() {
     <div className="max-w-4xl">
       <h1 className="text-4xl font-bold mb-8">Select Conference Proceedings</h1>
       <div className="space-y-8">
-        {proceedingsData.conferences.concat(proceedingsData.presentations)
+        {proceedingsData.conferences
           .sort((a, b) => {
-            const dateA = new Date(a.date.split('/').reverse().join('/'));
-            const dateB = new Date(b.date.split('/').reverse().join('/'));
+            // Convert date strings to Date objects for comparison
+            const [monthA, yearA] = a.date.split('/');
+            const [monthB, yearB] = b.date.split('/');
+            const dateA = new Date(yearA, monthA - 1);
+            const dateB = new Date(yearB, monthB - 1);
             return dateB - dateA;
           })
-          .map((proc, index) => (
+          .map((proceeding, index) => (
             <div 
               key={index} 
               className={`bg-gray-800 rounded-lg p-6 ${
-                proc.pdfLink ? 'cursor-pointer hover:bg-gray-700 transition-colors duration-150' : ''
+                proceeding.pdfLink ? 'cursor-pointer hover:bg-gray-700 transition-colors duration-150' : ''
               }`}
               onClick={() => {
-                if (proc.pdfLink) {
-                  window.open(proc.pdfLink, '_blank', 'noopener,noreferrer');
+                if (proceeding.pdfLink) {
+                  window.open(proceeding.pdfLink, '_blank', 'noopener,noreferrer');
                 }
               }}
             >
-              <h2 className="text-xl font-semibold mb-3">{proc.title}</h2>
+              <h2 className="text-xl font-semibold mb-3">{proceeding.title}</h2>
               <p className="text-gray-300 mb-2">
-                {proc.authors.map(author => {
-                  if (author.includes("Emerzian SR")) {
-                    return <strong key={author}>{author}</strong>;
-                  }
-                  return author;
-                }).reduce((prev, curr) => [prev, ", ", curr])}
+                {proceeding.authors.map((author, idx) => (
+                  <span key={idx}>
+                    {author.includes("Emerzian SR") ? (
+                      <strong>{author}</strong>
+                    ) : (
+                      author
+                    )}
+                    {idx < proceeding.authors.length - 1 ? ", " : ""}
+                  </span>
+                ))}
               </p>
               <p className="text-gray-400">
-                {proc.type} presentation at the {proc.conference}, {proc.location}, {proc.date}
+                {proceeding.type} presentation at the {proceeding.conference}, {proceeding.location}, {proceeding.date}
               </p>
-              {proc.note && (
+              {proceeding.note && (
                 <p className="text-gray-500 text-sm mt-2 italic">
-                  {proc.note}
+                  {proceeding.note}
                 </p>
               )}
             </div>
