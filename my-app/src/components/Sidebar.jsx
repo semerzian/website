@@ -21,10 +21,10 @@ function Sidebar({ currentPage, setCurrentPage }) {
             <button
               key={item.id}
               onClick={() => setCurrentPage(item.id)}
-              className={`w-full text-left px-4 py-3 rounded transition-colors duration-150 ${
+              className={`w-full text-left px-4 py-3 transition-all duration-150 border-b-2 ${
                 currentPage === item.id 
-                  ? 'bg-gray-700 text-white font-medium' 
-                  : 'text-gray-300 hover:bg-gray-700 hover:text-white'
+                  ? 'text-white font-medium border-cyan-400' 
+                  : 'text-gray-300 border-transparent hover:text-white hover:border-cyan-400/50'
               }`}
             >
               {item.label}

@@ -5,7 +5,7 @@ function Home() {
     <div className="max-w-4xl">
       <div className="flex items-start gap-8 mb-8">
         <img
-          src="/images/Shannon R Emerzian 20231101_04.jpg"
+          src="./images/Shannon R Emerzian 20231101_04.jpg"
           alt={profileData.name}
           className="w-64 rounded-lg shadow-lg"
         />
@@ -18,11 +18,7 @@ function Home() {
       </div>
       
       <div className="bg-gray-800 rounded-lg p-8 mb-8">
-        <h2 className="text-2xl font-semibold mb-6">About Me</h2>
         <div className="space-y-4">
-          <p className="text-gray-300">
-            {profileData.currentPosition.title} at {profileData.currentPosition.institution}
-          </p>
           <div>
             <h3 className="text-xl font-medium mb-3">Research Interests</h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
