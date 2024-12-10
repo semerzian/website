@@ -5,14 +5,14 @@
       "institution": "University of California, Berkeley",
       "location": "Berkeley, CA",
       "year": "2021",
-      "logo": "/images/university-of-california-berkeley-athletic-logo.png"
+      "logo": "./images/university-of-california-berkeley-athletic-logo.png"
     },
     {
         "degree": "Master of Science, Mechanical Engineering",
         "institution": "University of California, Berkeley",
         "location": "Berkeley, CA",
         "year": "2017",
-        "logo": "/images/university-of-california-berkeley-athletic-logo.png"
+        "logo": "./images/university-of-california-berkeley-athletic-logo.png"
       },
     {
         "degree": "Bachelor of Science, Mechanical Engineering",
