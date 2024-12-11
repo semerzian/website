@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://semerzian.github.io/website",
+  "homepage": "https://semerzian.github.io/bones",
   "dependencies": {
     "@babel/core": "^7.24.0",
     "@babel/preset-react": "^7.23.3",
