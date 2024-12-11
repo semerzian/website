@@ -1,6 +1,48 @@
 {
   "conferences": [
     {
+      "title": "Type 1, But Not Type 2, Diabetes Reduces Resistance to Damage Accumulation in Femoral Cortical Bone in Older Adults",
+      "authors": [
+        "Emerzian SR",
+        "Granados M",
+        "Chow J",
+        "Brooks DJ",
+        "Wu I",
+        "Jangolla S",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Johannesdottir F",
+        "Karim L",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
+      "conference": "Annual Meeting of the Orthopedic Research Society",
+      "location": "Phoenix, Arizona, USA",
+      "date": "02/2025",
+      "type": "Poster"
+    },
+    {
+      "title": "Femoral Neck Shape is Altered in Older Adults with Long-Duration Type 1 Diabetes",
+      "authors": [
+        "Emerzian SR",
+        "Smith N",
+        "Brooks DJ",
+        "Wu I",
+        "Jangolla S",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Johannesdottir F",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
+      "conference": "International Workshop on Quantitative Musculoskeletal Imaging",
+      "location": "Barossa Valley, South Australia, Australia",
+      "date": "11/2024",
+      "type": "Podium presentation"
+    },
+    {
       "title": "Long-Duration Type 1 Diabetes Alters Bone Matrix Composition but Does Not Influence Microarchitecture or Mechanical Behavior in Femoral Trabecular Bone in Older Adults",
       "authors": [
         "Emerzian SR",

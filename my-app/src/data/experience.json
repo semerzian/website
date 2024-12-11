@@ -9,7 +9,7 @@
       "logo": "./images/Beth_Israel.jpg"
     },
     {
-      "title": "Graduate Student",
+      "title": "Graduate Research Fellow",
       "institution": "University of California, Berkeley",
       "department": "Berkeley BioMechanics, Bone Biomechanics Laboratory",
       "location": "Berkeley, CA",
@@ -52,8 +52,24 @@
   ],
   "teaching": [
     {
-      "role": "Engineering Tutor",
-      "course": "",
+      "role": "Graduate Student Instructor",
+      "course": "Communications for Engineering Leaders",
+      "institution": "University of California, Berkeley",
+      "department": "Fung Institute for Engineering Leadership",
+      "period": "2020-2021",
+      "logo": "./images/university-of-california-berkeley-athletic-logo.png"
+    },
+    {
+      "role": "Graduate Student Instructor",
+      "course": "Advanced Orthopaedic Biomechanics",
+      "institution": "University of California, Berkeley",
+      "department": "Department of Mechanical Engineering",
+      "period": "2019",
+      "logo": "./images/university-of-california-berkeley-athletic-logo.png"
+    },
+    {
+      "role": "Undergraduate Tutor",
+      "course": "Thermodynamics, Mechanics of Materials, Materials Science, and Engineering Mechanics and Design (Statics)",
       "institution": "Northeastern University",
       "department": "Department of Mechanical and Industrial Engineering",
       "period": "2011-2013",

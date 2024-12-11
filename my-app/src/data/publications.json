@@ -1,6 +1,28 @@
 {
   "peerReviewed": [
     {
+      "title": "Long-duration type 1 diabetes is associated with deficient cortical bone mechanical behavior and altered material composition in human femoral bone",
+      "authors": [
+        "Emerzian SR",
+        "Chow J",
+        "Behzad R",
+        "Unal M",
+        "Brooks DJ",
+        "Wu I",
+        "Gauthier J",
+        "Jangolla S",
+        "Yu MG",
+        "Shah HS",
+        "King GL",
+        "Johannesdottir F",
+        "Karim L",
+        "Yu EW",
+        "Bouxsein ML"
+      ],
+      "journal": "Journal of Bone and Mineral Research",
+      "year": 2024
+    },
+    {
       "title": "Total body irradiation is associated with deficits in femoral bone structure but not mechanical properties in male rhesus macaques",
       "authors": [
         "Barnet IR*",
@@ -17,31 +39,9 @@
         "Cline JM",
         "Willey JS"
       ],
-      "journal": "In review",
+      "journal": "Scientific Reports",
       "year": 2024,
       "note": "*Co-first authors"
-    },
-    {
-      "title": "Long-duration type 1 diabetes is associated with deficient cortical bone mechanical behavior and altered material composition in human femoral bone",
-      "authors": [
-        "Emerzian SR*",
-        "Chow J",
-        "Behzad R",
-        "Unal M",
-        "Brooks DJ",
-        "Wu I",
-        "Gauthier J",
-        "Jangolla S",
-        "Yu MG",
-        "Shah HS",
-        "King GL",
-        "Johannesdottir F",
-        "Karim L",
-        "Yu EW",
-        "Bouxsein ML"
-      ],
-      "journal": "In review",
-      "year": 2024
     },
     {
       "title": "Use of Non-Invasive Imaging to Identify Causes of Skeletal Fragility in Adults with Diabetes: A Review",
