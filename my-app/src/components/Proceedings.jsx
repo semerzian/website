@@ -3,7 +3,7 @@ import proceedingsData from '../data/proceedings.json'
 function Proceedings() {
   return (
     <div className="max-w-4xl">
-      <h1 className="text-4xl font-bold mb-8">Select Conference Proceedings</h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 md:mb-8">Select Conference Proceedings</h1>
       <div className="space-y-8">
         {proceedingsData.conferences
           .sort((a, b) => {
@@ -17,7 +17,7 @@ function Proceedings() {
           .map((proceeding, index) => (
             <div 
               key={index} 
-              className={`bg-gray-800 rounded-lg p-6 ${
+              className={`bg-gray-800 rounded-lg p-4 md:p-6 ${
                 proceeding.pdfLink ? 'cursor-pointer hover:bg-gray-700 transition-colors duration-150' : ''
               }`}
               onClick={() => {
@@ -26,8 +26,8 @@ function Proceedings() {
                 }
               }}
             >
-              <h2 className="text-xl font-semibold mb-3">{proceeding.title}</h2>
-              <p className="text-gray-300 mb-2">
+              <h2 className="text-lg md:text-xl font-semibold mb-2 md:mb-3">{proceeding.title}</h2>
+              <p className="text-sm md:text-base text-gray-300 mb-2">
                 {proceeding.authors.map((author, idx) => (
                   <span key={idx}>
                     {author.includes("Emerzian SR") ? (

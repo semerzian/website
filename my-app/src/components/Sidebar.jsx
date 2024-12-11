@@ -14,8 +14,8 @@ function Sidebar({ currentPage, setCurrentPage }) {
   ]
 
   return (
-    <aside className="fixed left-0 top-0 w-80 h-screen bg-gray-950 shadow-xl overflow-y-auto flex items-center">
-      <div className="w-full px-6">
+    <aside className="w-full md:fixed md:left-0 md:top-0 md:w-80 md:h-screen bg-gray-950 shadow-xl overflow-y-auto flex items-center">
+      <div className="w-full px-4 py-4 md:px-6 md:py-0">
         <nav className="space-y-1">
           {menuItems.map((item) => (
             <button
