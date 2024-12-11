@@ -5,7 +5,7 @@ function Home() {
     <div className="max-w-4xl">
       <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8 mb-8">
         <img
-          src="/images/Shannon R Emerzian 20231101_04.jpg"
+          src={profileData.profileImage}
           alt={profileData.name}
           className="w-48 md:w-64 rounded-lg shadow-lg"
         />
